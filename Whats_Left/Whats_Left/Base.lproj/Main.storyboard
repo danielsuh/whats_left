@@ -22,7 +22,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBD-hO-Elz">
-                                <rect key="frame" x="30" y="189" width="354" height="77"/>
+                                <rect key="frame" x="30" y="189" width="287" height="77"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="67"/>
                                 <state key="normal" title="Open Me!"/>
                                 <connections>

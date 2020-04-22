@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFFED812450F76600284FE0 /* fridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DFFED802450F76600284FE0 /* fridge.png */; };
+		0DFFED832450FD1800284FE0 /* EntryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFED822450FD1800284FE0 /* EntryScreenViewController.swift */; };
 		65ED4BBF2450F4BC007D0F0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ED4BBE2450F4BC007D0F0D /* AppDelegate.swift */; };
 		65ED4BC12450F4BC007D0F0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ED4BC02450F4BC007D0F0D /* SceneDelegate.swift */; };
 		65ED4BC32450F4BC007D0F0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ED4BC22450F4BC007D0F0D /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DFFED802450F76600284FE0 /* fridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fridge.png; sourceTree = "<group>"; };
+		0DFFED822450FD1800284FE0 /* EntryScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryScreenViewController.swift; sourceTree = "<group>"; };
 		65ED4BBB2450F4BC007D0F0D /* Whats_Left.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whats_Left.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65ED4BBE2450F4BC007D0F0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65ED4BC02450F4BC007D0F0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +109,12 @@
 				65ED4BC02450F4BC007D0F0D /* SceneDelegate.swift */,
 				65ED4BC22450F4BC007D0F0D /* ViewController.swift */,
 				65ED4BC42450F4BC007D0F0D /* Main.storyboard */,
+				0DFFED822450FD1800284FE0 /* EntryScreenViewController.swift */,
 				65ED4BC72450F4C0007D0F0D /* Assets.xcassets */,
 				65ED4BC92450F4C0007D0F0D /* LaunchScreen.storyboard */,
 				65ED4BCC2450F4C0007D0F0D /* Info.plist */,
 				65ED4BEE2450F51E007D0F0D /* banana.jpg */,
+				0DFFED802450F76600284FE0 /* fridge.png */,
 			);
 			path = Whats_Left;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFFED812450F76600284FE0 /* fridge.png in Resources */,
 				65ED4BCB2450F4C0007D0F0D /* LaunchScreen.storyboard in Resources */,
 				65ED4BC82450F4C0007D0F0D /* Assets.xcassets in Resources */,
 				65ED4BEF2450F51F007D0F0D /* banana.jpg in Resources */,
@@ -266,6 +273,7 @@
 				65ED4BC32450F4BC007D0F0D /* ViewController.swift in Sources */,
 				65ED4BBF2450F4BC007D0F0D /* AppDelegate.swift in Sources */,
 				65ED4BC12450F4BC007D0F0D /* SceneDelegate.swift in Sources */,
+				0DFFED832450FD1800284FE0 /* EntryScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
